@@ -1,7 +1,10 @@
 package com.jianzhi.offer;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Set;
 
 /**    
 * @author zk  
@@ -9,6 +12,8 @@ import java.util.List;
 */
 public class Duplicate {
 	
+	Set<String> set = new HashSet<>(); 
+	List<String> list = new LinkedList<>();
 	public boolean duplicate(int numbers[],int length,int [] duplication) {
 		if (length<=0) {
 			return false;
