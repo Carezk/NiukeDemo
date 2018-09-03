@@ -23,6 +23,7 @@ public class FirstAppearingOnceString {
          int temp = Integer.MAX_VALUE;
          for (int i = 0; i < 256; i++) {
 			if (count[i]!=0&&count[i]!=-1&&count[i]<temp) {
+				temp = count[i];
 				ch = (char)i;
 			}
 		}
