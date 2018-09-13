@@ -34,7 +34,6 @@ public class MatrixTest {
 			}
 			result.addAll(printMatrix(rotateMatrix(matrix2, col-1, row)));
 		}
-	       
 	       return result;
     }
 	public static int[][] rotateMatrix(int m[][] , int col , int row){
